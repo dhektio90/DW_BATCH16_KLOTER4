@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Progate</title>
+    <link rel="stylesheet" href="stylesheet.css">
+  </head>
+  <body>
+    <div class="header">
+      <div class="header-logo">DUMB <span>XXI-LXIX</span></div>
+      <div class="header-list">
+        <ul>
+          <li><button type="submit">Add Film</button></li>
+          <li><button type="submit">Add Director</button></li>
+          <li><button type="submit">Add Genre</button></li>
+          <li><button type="submit">Add Writer</button></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="main">
+      
+      <div class="contents">
+        <h3 class="section-title">List Film</h3>
+        <div class="contents-item">
+          <img src="https://i.pinimg.com/564x/d8/13/46/d81346d7e7168df841dc07252cb83813.jpg">
+          <p>4,8</p>
+          <p>JOKER</p>
+          <button>Detail</button>
+        </div>
+        <div class="contents-item">
+          <img src="https://i.pinimg.com/236x/cc/ce/bc/cccebcb3db72f5bf9f3135090817417d.jpg">
+          <p>8,9</p>
+          <p>LA CASA DE PAPEL</p>
+          <button>Detail</button>
+        </div>
+        <div class="contents-item">
+          <img src="https://i.pinimg.com/564x/de/ae/34/deae34a56a3fa6a9b280cf77d49c5e22.jpg">
+          <p>9,3</p>
+          <p>1917</p>
+          <button>Detail</button>
+        </div>
+        <div class="contents-item">
+          <img src="https://i.pinimg.com/564x/9e/fe/43/9efe435179b157934b6b13a85866fb64.jpg">
+          <p>7,5</p>
+          <p>PARASITE</p>
+          <button>Detail</button>
+        </div>
+      </div>
+      
+    </div>  
+  </body>
+</html>
+
+body {
+  font-family: sans-serif;
+  background-color: black;
+}
+
+li {
+  list-style: none;
+}
+
+.header {
+  color: gold;
+  height: 90px;
+  margin: 20px;
+}
+
+.header-logo {
+  float: left;
+  font-size: 80px;
+  padding: 20px 40px;
+  color: white;
+}
+span{
+  color: gold;
+}
+
+.header-list li {
+  float:  right;
+  padding: 40px 10px;
+  margin: 10px;
+}
+button{
+  background-color: gold;
+  color: black;
+  border-radius: 5px;
+  border: 1px solid yellow;
+  padding: 15px;
+  font-weight: bolder;
+}
+button:hover{
+  color: white;
+}
+
+.main {
+  padding: 100px 80px;
+  color: white;
+}
+
+.contents {
+  height: 500px;
+  margin-top: 10px;
+}
+
+.section-title {
+  border-bottom: 2px solid #dee7ec;
+  font-size: 28px;
+  padding-bottom: 15px;
+  margin-bottom: 50px;
+  color: white;
+  font-size: 50px;
+  flex: auto;
+}
+
+.contents-item {
+  float: left;
+  margin-right: 30px;
+  border: 1px solid white;
+  border-radius: 10px;
+  
+}
+img{
+  height: 200px;
+  width: 270px;
+}
+.contents-item p {
+  font-size: 24px;
+  margin-top: 10px;
+}
+.contents-item button{
+  width: 240px;
+  margin-bottom: 10px;
+  
+}
