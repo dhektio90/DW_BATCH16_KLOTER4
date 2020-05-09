@@ -10,7 +10,7 @@ Soal no 1, 2, 3, 4
  no 2 dengan bahasa php
  no 3 dengan bahasa python
  no 4 dengan html dan css
- 
+ no 5 dengan sql
  
  
  Besar bisa berlatih dan bekerja dengan DUMBWAYS
